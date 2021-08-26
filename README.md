@@ -23,7 +23,8 @@ optional arguments:
                         1、ser：poc以读取序列化文件数据形式发送；2、cmdl：命令行模式，命令行发送序列化poc。默认为命令行模式
   -f FILEPATH, --filepath FILEPATH
                         Serialize Payload File Path: /User/xxxx/Desktop/xxx.ser
-```.   
+``` 
+  
 2021-08-26-14:54更新  
 1、添加：可指定ser文件，以读取序列化文件数据通过POST请求发送（需指定-m参数值为ser，-f参数值为ser文件路径）  
 2、添加提示信息   
