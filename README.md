@@ -7,9 +7,9 @@
 
 旨在方便测试存在反序列化的点  
 
-![image](https://user-images.githubusercontent.com/63454826/129454278-9e4f67c0-3b62-46d9-bb68-86b65e872200.png)
+![image](https://user-images.githubusercontent.com/63454826/129454278-9e4f67c0-3b62-46d9-bb68-86b65e872200.png)  
 
-2021-08-26-14:54更新
+2021-08-26-14:54更新  
 1、添加：可指定ser文件，以读取序列化文件数据通过POST请求发送（需指定-m参数值为ser，-f参数值为ser文件路径）  
 2、添加提示信息  
 3、添加header头"Content-Type":"application/x-java-serialized-object"，发送POST数据时以该header发送  
