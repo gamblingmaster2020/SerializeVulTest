@@ -28,5 +28,6 @@ optional arguments:
 2021-08-26-14:54更新  
 1、添加：可指定ser文件，以读取序列化文件数据通过POST请求发送（需指定-m参数值为ser，-f参数值为ser文件路径）  
 2、添加提示信息   
-3、添加header头"Content-Type":"application/x-java-serialized-object"，发送POST数据时以该header发送    
+3、添加header头"Content-Type":"application/x-java-serialized-object"，发送POST数据时以该header发送
+  
 ![image](https://user-images.githubusercontent.com/63454826/130916984-5ac0908d-f39d-4ea6-a380-1bf0ac7ba8d8.png)
